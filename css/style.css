@@ -32,6 +32,10 @@
 
 }
 
+h1, p {
+  font-family: "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif; 
+}
+
 h2 {
   font-family: AngelinaRegular, "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif; 
   font-stretch:normal;
@@ -40,17 +44,39 @@ h2 {
   font-weight: normal;
 }
 
+p {
+  font-weight: bold;
+  text-align: justify;
+  font-size: larger;
+}
+
 li {
   font-family: AngelinaRegular, "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif;   
 }
 
-h1 {
-  font-family: "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif; 
-}
-
-.page-header h1 {
-
-}
 h2, li {
   color: #579;
+}
+
+.btn-cta {
+  text-align: center;
+  margin: 0 auto 8px auto;
+  min-width: 33%;
+}
+
+footer.footer {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border-top: 1px solid #E5E5E5;
+}
+
+.footer img {
+  padding: 0 15px 15px 15px;
+}
+
+img.profile {
+  max-width: 50%;
+  float: left;
+  margin-bottom: 8px;
+  margin-right: 8px;
 }
