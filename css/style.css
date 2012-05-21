@@ -45,13 +45,9 @@ h2 {
 }
 
 p {
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-align: justify;
   font-size: larger;
-}
-
-li {
-  font-family: AngelinaRegular, "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif;   
 }
 
 h2, li {
