@@ -65,9 +65,11 @@ a:hover {
 
 .btn-cta {
   text-align: center;
-  margin: 0 auto 8px auto;
-  min-width: 33%;
-  height: 33%;
+  margin: auto auto 8px auto;
+  width: 100%;
+  /*overwrite bootstrap padding*/
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .descriptive-text {
@@ -85,8 +87,6 @@ footer.footer {
 }
 
 img.profile {
-  max-width: 50%;
-  float: left;
   margin-bottom: 8px;
   margin-right: 8px;
 }
