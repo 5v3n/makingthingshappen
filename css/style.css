@@ -46,6 +46,10 @@ h2, h2 a {
   color: #579;
 }
 
+h2 a:hover {
+  color: #579;
+}
+
 h1 {
   font-size: 2.1em;
 }
