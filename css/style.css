@@ -21,7 +21,8 @@
 }
 
 .box {
-  margin-bottom: 10px;
+  padding: 10px 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .box .details-link {
@@ -29,23 +30,23 @@
   padding-right: 30px;
 }
 
-h2, p {
+h1, p {
   font-family: "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif; 
 }
 
-h1, li p {
+h2 {
   font-family: AngelinaRegular, "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif; 
-  font-stretch:normal;
-  color: #579;
+  font-stretch: normal;
+  font-size: 4em ;
   /*workaround for ios double stroke bug http://stackoverflow.com/questions/5069752/ios-4-2-webfont-ttf-s-bold-font-weight-rendering-bug */
   font-weight: normal;
 }
 
-h1 {
-  font-size: 3em ;
+h2, h2 a {
+  color: #579;
 }
 
-li p {
+h1 {
   font-size: 2.1em;
 }
 
