@@ -76,6 +76,14 @@ a:hover {
   padding: 16px 0 16px 0;
 }
 
+.visible-tablet .btn-cta {
+  width: 30%;
+}
+
+.visible-tablet img.profile {
+  max-width: 217px
+}
+
 .descriptive-text {
   text-align: justify;
 }
