@@ -84,6 +84,10 @@ a:hover {
   max-width: 217px
 }
 
+.visible-phone img.profile{
+  width: 100%;
+}
+
 .descriptive-text {
   text-align: justify;
 }
