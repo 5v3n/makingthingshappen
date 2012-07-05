@@ -5,29 +5,63 @@
   text-align: center;
   margin: 0 auto 0 auto;
 }
-.rounded {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -o-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -khtml-border-radius: 20px;
-  border-radius: 20px;
-}
-.shadow {
-  -moz-box-shadow: 0px 0px 5px #333333;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -o-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-}
 
 .box {
-  padding: 10px 0 10px 0;
-  margin: 0 0 10px 0;
+  padding: 24px 0 24px 0;
+  margin: 0 0 24px 0;
+}
+
+.sticky {
+  position: relative;
+  background-color: #FAF8E5;
+  border: 1px solid #E3E3E3;
+  /*border-top-width: 0;*/
+}
+
+.box.contact {
+  padding: 0;
+}
+
+.photo{
+  position: relative;
 }
 
 .box .details-link {
   text-align: right;
   padding-right: 30px;
+}
+
+.left-shadow{
+  width: 140px;
+  height: 130px;
+  bottom:-5px; left:-12px;
+  position:absolute;
+  z-index:-6;
+  display: inline-block;
+  -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  -moz-transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+  -webkit-transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+  -o-transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+  -ms-transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+  transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+}
+.right-shadow{
+  width: 140px;
+  height: 140px;
+  bottom:-13px; right:-4px;
+  position:absolute;
+  z-index:-6;
+  display: inline-block;
+  -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  -moz-transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
+  -webkit-transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
+  -o-transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
+  -ms-transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
+  transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
 }
 
 h1, p {
