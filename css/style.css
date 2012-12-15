@@ -80,7 +80,7 @@ h2, h2 a {
   color: #579;
 }
 
-h2 a:hover {
+h2 a:hover, .burst-12 p a:hover {
   color: #579;
   text-decoration: none;
 }
@@ -141,6 +141,59 @@ img.profile {
   margin-bottom: 8px;
   margin-right: 8px;
 }
+
+/*----- burst ------------*/
+
+.burst-12 {
+  background: red;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  text-align: center;
+}
+
+.burst-12 p{
+  color: red;
+  font-size: 30px;
+  margin-top: 0px;
+  position: relative;
+  top: 25px;
+  height: 30px;
+  z-index: 20;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.burst-12:before, .burst-12:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  background: red;
+}
+
+.burst-12:before {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+}
+
+.burst-12:after {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+}
+
+/*-----------------------*/
+
+
 
 @font-face {
     font-family: 'AngelinaRegular';
