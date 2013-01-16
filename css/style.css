@@ -6,6 +6,11 @@
   margin: 0 auto 0 auto;
 }
 
+.left {
+ text-align: left;
+ margin-left: 12px; 
+}
+
 .box {
   padding: 24px 0 24px 0;
   margin: 0 0 24px 0;
