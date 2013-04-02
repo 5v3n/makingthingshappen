@@ -3,9 +3,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>aking things happen. | <%= @item[:title] %></title>
-  <meta name="description" content="<%= @item[:description] %>"/>
-  <meta name="keywords" content="<%=@item[:keywords]%>"/>
+  <title>aking things happen. | 404 page not found</title>
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
   <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap-responsive.min.css" />
   <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
@@ -27,7 +27,20 @@
 </head>
 <body>
 <div class="container">
-  <%= yield %>
+  <div class="row">
+    <div class="span12">
+      <div class="page-header">
+        <h2><a href="/">We are making a lot of things happen.</a></h2>
+        <br />
+        <h1>The requested page seems not to belong to them...</h1>
+      </div>
+    </div>
+    <div class="span12">
+      <p><a href="/">Back home...</a></p>
+      <br/>
+      <p>404 page not found.</p>
+    </div>
+  </div>
   <footer class="footer">
     <div class="span12 centered social-connect">
       <div class="social-button twitter-button">
