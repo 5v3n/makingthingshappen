@@ -13,6 +13,16 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+#sitemap
+
+compile '/sitemap/' do
+  filter :erb
+end
+
+route '/sitemap/' do
+  item.identifier.chop + '.xml'
+end
+
 compile '/CNAME/' do
 end
 
