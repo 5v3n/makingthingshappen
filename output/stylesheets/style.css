@@ -1,0 +1,183 @@
+.noise {
+  background: #EEEEEE url("/images/bg.png") repeat;
+}
+
+.row {
+  margin-top: 20px;
+}
+.centered {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.left {
+ text-align: left;
+ margin-left: 12px; 
+}
+
+.box {
+  padding: 24px 0 24px 0;
+  margin: 0 0 24px 0;
+}
+
+.sticky {
+  position: relative;
+  background-color: #FAF8E5;
+  border: 1px solid #E3E3E3;
+  /*border-top-width: 0;*/
+}
+
+.box.contact {
+  padding: 0;
+}
+
+.photo{
+  position: relative;
+}
+
+.box .details-link {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.left-shadow{
+  width: 140px;
+  height: 130px;
+  bottom:-5px; left:-12px;
+  position:absolute;
+  z-index:-6;
+  display: inline-block;
+  -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  -moz-transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+  -webkit-transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+  -o-transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+  -ms-transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+  transform: scale(1) rotate(274deg) translate(20px, 25px) skew(9deg, 0deg);
+}
+.right-shadow{
+  width: 140px;
+  height: 140px;
+  bottom:-13px; right:-4px;
+  position:absolute;
+  z-index:-6;
+  display: inline-block;
+  -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+  -moz-transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
+  -webkit-transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
+  -o-transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
+  -ms-transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
+  transform: scale(1) rotate(184deg) translate(20px, 25px) skew(9deg, 0deg);
+}
+
+h1, p {
+  font-family: "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif; 
+}
+
+h2 {
+  font-family: AngelinaRegular, "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif; 
+  font-stretch: normal;
+  font-size: 4em ;
+  /*workaround for ios double stroke bug http://stackoverflow.com/questions/5069752/ios-4-2-webfont-ttf-s-bold-font-weight-rendering-bug */
+  font-weight: normal;
+}
+
+h2, h2 a {
+  color: #579;
+}
+
+h2 a:hover {
+  color: #579;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.1em;
+}
+
+p {
+  /*font-weight: bold;*/ 
+  font-size: larger;
+  color: #333;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #333;
+}
+
+.btn-cta {
+  text-align: center;
+  margin: auto auto 8px auto;
+  width: 100%;
+  /*overwrite bootstrap padding*/
+  padding: 16px 0 16px 0;
+}
+
+.visible-tablet .btn-cta {
+  width: 30%;
+}
+
+.visible-tablet img.profile {
+  max-width: 217px
+}
+
+.visible-phone img.profile{
+  width: 100%;
+}
+
+.descriptive-text {
+  text-align: justify;
+}
+
+footer.footer {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border-top: 1px solid #E5E5E5;
+}
+
+.page-header {
+  border-bottom: 1px solid #E5E5E5;
+}
+.footer img {
+  padding: 0 9px 9px 9px;
+}
+
+.social-connect {
+  margin-bottom: 10px;
+}
+
+.social-button {
+  height: 20px;
+  width: 128px;
+  position: relative;
+  display: -moz-inline-block;
+  display: inline-block;
+}
+
+.twitter-button {
+  top: 3px; /*align with facebook button*/
+}
+
+img.profile {
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+@font-face {
+    font-family: 'AngelinaRegular';
+    src: url('../fonts/angelina-webfont-eot.eot');
+    src: url('../fonts/angelina-webfont-eot.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/angelina-webfont-woff.woff') format('woff'),
+         url('../fonts/angelina-webfont-ttf.ttf') format('truetype'),
+         url('../fonts/angelina-webfont-svg.svg#AngelinaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
