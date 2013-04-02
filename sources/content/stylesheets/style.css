@@ -1,3 +1,7 @@
+.noise {
+  background: #EEEEEE url("/images/bg.png") repeat;
+}
+
 .row {
   margin-top: 20px;
 }
@@ -138,8 +142,27 @@ footer.footer {
   border-top: 1px solid #E5E5E5;
 }
 
+.page-header {
+  border-bottom: 1px solid #E5E5E5;
+}
 .footer img {
   padding: 0 9px 9px 9px;
+}
+
+.social-connect {
+  margin-bottom: 10px;
+}
+
+.social-button {
+  height: 20px;
+  width: 128px;
+  position: relative;
+  display: -moz-inline-block;
+  display: inline-block;
+}
+
+.twitter-button {
+  top: 3px; /*align with facebook button*/
 }
 
 img.profile {
@@ -149,11 +172,11 @@ img.profile {
 
 @font-face {
     font-family: 'AngelinaRegular';
-    src: url('../fonts/angelina-webfont.eot');
-    src: url('../fonts/angelina-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/angelina-webfont.woff') format('woff'),
-         url('../fonts/angelina-webfont.ttf') format('truetype'),
-         url('../fonts/angelina-webfont.svg#AngelinaRegular') format('svg');
+    src: url('../fonts/angelina-webfont-eot.eot');
+    src: url('../fonts/angelina-webfont-eot.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/angelina-webfont-woff.woff') format('woff'),
+         url('../fonts/angelina-webfont-ttf.ttf') format('truetype'),
+         url('../fonts/angelina-webfont-svg.svg#AngelinaRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 

@@ -13,21 +13,39 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile '/stylesheet/' do
-  # don’t filter or layout
+compile '/CNAME/' do
 end
 
+route '/CNAME/' do
+  '/CNAME'
+end
+
+route '/404/' do
+  '/404.html'
+end
+
+route '/imprint/' do
+  '/imprint.html'
+end
+
+route '/404/' do
+  '/404.html'
+end
+
+compile '/google89436ab8910a7ce7/' do
+end
+
+route '/google89436ab8910a7ce7/' do
+  '/google89436ab8910a7ce7.html'
+end 
+
 compile '*' do
-  if item.binary?
+  if item.binary? 
     # don’t filter binary items
   else
     filter :erb
     layout 'default'
   end
-end
-
-route '/stylesheet/' do
-  '/style.css'
 end
 
 route '*' do
