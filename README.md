@@ -2,7 +2,7 @@
 
 # what
 
-* [makingthingshappen.de](http://makingthingshappen.de)
+* [makingthingshappen.de](http://makingthingshappen.de?source=github-project)
 
 # how
 
